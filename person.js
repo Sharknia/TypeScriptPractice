@@ -1,10 +1,12 @@
-class Person {
-    constructor(name) {
+"use strict";
+exports.__esModule = true;
+var Person = /** @class */ (function () {
+    function Person(name) {
         this.name = name;
     }
-    sayHello() {
+    Person.prototype.sayHello = function () {
         return "Hello, " + this.name;
-    }
-}
-const person = new Person('Lee');
-console.log(person.sayHello());
+    };
+    return Person;
+}());
+exports.Person = Person;
