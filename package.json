@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Sharknia/TypeScriptPractice#readme",
   "dependencies": {
-    "@types/lodash": "^4.14.149"
+    "@types/lodash": "^4.14.149",
+    "lodash": "^4.17.15"
   }
 }
